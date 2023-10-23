@@ -1,0 +1,44 @@
+:root{
+    --fs-sm:16px;
+    --fs-lg:16px;
+    --fs-xl:16px;
+    --fs-2xl:16px;
+    --fs-6xl:62px;
+    --grey:#252423;
+    --white:#FAFAFA;
+    --black:#3C3C3C;
+    --ff-mont:'Montserrat Alternates';
+}
+.bsGrey{
+    color: var(--grey);
+}
+.bgGrey{
+    background: var(--grey);
+}
+.bsBlack{
+    color: var(--black);
+}
+.bgBlack{
+    background: var(--black);
+}
+.bsWhite{
+    color: var(--white) !important;
+}
+.bgWhite{
+    background: var(--white);
+}
+.fs-sm{
+    font-size: var(--fs-sm);
+}
+.fs-lg{
+    font-size: var(--fs-lg);
+}
+.fs-xl{
+    font-size: var(--fs-xl);
+}
+.fs-6xl{
+    font-size: var(--fs-6xl);
+}
+.ff-mont{
+    font-family: var(--ff-mont);
+}
