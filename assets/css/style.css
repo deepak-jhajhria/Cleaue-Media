@@ -322,7 +322,37 @@ transition: 0.3s;
   background-color: var(--bs-accordion-active-bg);
   box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
 }
-
+.accordion-button::after {
+  background-image: url(/assets/image/iconamoon_arrow-up-2-duotone.png);
+  background-size: 28px !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image:url(/assets/image/active.png);
+  background-size: 28px !important;
+}
+/* footer  */
+.footerSvg{
+  width: 32px;
+  height: 32px;
+  background: var(--dark);
+  transition: 0.3s;
+}
+.footerSvg:hover{
+  transform: translateY(2px);
+}
+.footerSvg svg path {
+  fill: #fafafa;
+}
+.footerSvg:hover svg path {
+  fill: #6FB9D7;
+}
+.footerLink{
+  opacity: 0.7;
+  transition: 0.3s;
+}
+.footerLink:hover{
+  opacity: 1;
+}
 /* media querys  */
 @media (min-width: 576px) {
   .skyImg svg {
@@ -348,6 +378,14 @@ transition: 0.3s;
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  :root{
+    --fs-sm:14px;
+    --fs-lg:16px;
+    --fs-xl:17px;
+    --fs-2xl:20px;
+    --fs-4xl:34px;
+    --fs-6xl:48px;
+  }
 }
 @media (min-width: 768px) {
   .logo a span svg {
@@ -369,6 +407,14 @@ transition: 0.3s;
   .py-md-80 {
     padding-top: 80px;
     padding-bottom: 80px;
+  }
+  :root{
+    --fs-sm:15px;
+    --fs-lg:17px;
+    --fs-xl:18px;
+    --fs-2xl:22px;
+    --fs-4xl:38px;
+    --fs-6xl:55px;
   }
 }
 @media (min-width: 992px) {
@@ -413,6 +459,14 @@ transition: 0.3s;
   .btn4 {
     max-width: 261px !important;
   }
+  :root{
+    --fs-sm:16px;
+    --fs-lg:18px;
+    --fs-xl:20px;
+    --fs-2xl:24px;
+    --fs-4xl:42px;
+    --fs-6xl:62px;
+  }
 }
 @media (max-width: 992px) {
   .mobileView {
@@ -449,4 +503,5 @@ transition: 0.3s;
     height: 40px;
     background: black;
   }
+
 }

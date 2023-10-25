@@ -1,16 +1,17 @@
 :root{
-    --fs-sm:16px;
-    --fs-lg:18px;
-    --fs-xl:20px;
-    --fs-2xl:24px;
-    --fs-4xl:42px;
-    --fs-6xl:62px;
+    --fs-sm:13px;
+    --fs-lg:14px;
+    --fs-xl:15px;
+    --fs-2xl:18px;
+    --fs-4xl:28px;
+    --fs-6xl:38px;
     --grey:#252423;
     --grey2:#242323;
     --greywhite:#FFF9E4;
     --white:#FAFAFA;
     --white2:#FFFCF6;
     --black:#3C3C3C;
+    --dark:#444343;
     --yellow:#FFCF23;
     --ff-mont:'Montserrat Alternates';
 }
