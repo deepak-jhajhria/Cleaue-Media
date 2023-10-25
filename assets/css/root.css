@@ -1,13 +1,15 @@
 :root{
-    --fs-sm:13px;
+    --fs-sm:14px;
     --fs-lg:14px;
     --fs-xl:15px;
     --fs-2xl:18px;
     --fs-4xl:28px;
-    --fs-6xl:38px;
+    --fs-6xl:32px;
     --grey:#252423;
     --grey2:#242323;
     --greywhite:#FFF9E4;
+    --menu:#2F2E2E;
+    --loginBtn:#80765D;
     --white:#FAFAFA;
     --white2:#FFFCF6;
     --black:#3C3C3C;

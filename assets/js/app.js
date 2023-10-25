@@ -13,6 +13,7 @@ menu.addEventListener("click", function () {
     span1.classList.toggle("span4");
     span2.classList.toggle("span5");
     span3.classList.toggle("span6");
+    menu.classList.toggle("bgMenu")
 })
 navBtn.addEventListener("click", function () {
     mobileView.classList.remove("show");
