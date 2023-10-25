@@ -1,12 +1,17 @@
 :root{
     --fs-sm:16px;
-    --fs-lg:16px;
-    --fs-xl:16px;
-    --fs-2xl:16px;
+    --fs-lg:18px;
+    --fs-xl:20px;
+    --fs-2xl:24px;
+    --fs-4xl:42px;
     --fs-6xl:62px;
     --grey:#252423;
+    --grey2:#242323;
+    --greywhite:#FFF9E4;
     --white:#FAFAFA;
+    --white2:#FFFCF6;
     --black:#3C3C3C;
+    --yellow:#FFCF23;
     --ff-mont:'Montserrat Alternates';
 }
 .bsGrey{
@@ -15,8 +20,14 @@
 .bgGrey{
     background: var(--grey);
 }
+.bgGrey2{
+    background: var(--grey2);
+}
 .bsBlack{
     color: var(--black);
+}
+.bsYellow{
+    color: var(--yellow);
 }
 .bgBlack{
     background: var(--black);
@@ -27,14 +38,27 @@
 .bgWhite{
     background: var(--white);
 }
+.bgWhite2{
+    background: var(--white2);
+}
+.bgGreyWhite{
+    background: var(--greywhite);
+}
 .fs-sm{
     font-size: var(--fs-sm);
 }
 .fs-lg{
     font-size: var(--fs-lg);
 }
+
 .fs-xl{
     font-size: var(--fs-xl);
+}
+.fs-2xl{
+    font-size: var(--fs-2xl);
+}
+.fs-4xl{
+    font-size: var(--fs-4xl);
 }
 .fs-6xl{
     font-size: var(--fs-6xl);
