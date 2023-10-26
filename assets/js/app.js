@@ -5,7 +5,7 @@ let body = document.querySelector("body");
 let span1 = document.querySelector(".span1")
 let span2 = document.querySelector(".span2")
 let span3 = document.querySelector(".span3")
-let navBtn = document.querySelector(".navLinks")
+let navBtn = document.querySelector(".navBtn")
 
 menu.addEventListener("click", function () {
     mobileView.classList.toggle("show");
