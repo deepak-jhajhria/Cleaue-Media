@@ -291,7 +291,7 @@ flex-shrink: 0;
   right: 0;
 }
 .sec3PImg4 span svg{
-  width: 199.68px;
+  width: 120.68px;
   height: 169.739px;
   transform: rotate(0.779deg);
 }
@@ -407,7 +407,7 @@ box-shadow: 7px 7px 0px 0px #3C3C3C;
   right: 7%;
 }
 .sec5Img5 {
-  top: 44.9%;
+  top: 43.9%;
   left: 0;
 }
 .sec5Img6 {
@@ -536,7 +536,7 @@ height: 11px;
 }
 .sec7img1{
   left: 0;
-  top: 37%;
+  top: 40%;
 }
 .sec7img1 span svg{
   width: 70px;
@@ -665,10 +665,6 @@ background: #FAFAFA;
     width: 72px;
     height: 59.529px;
   }
-  .sec5Img5 span svg {
-    width: 246px;
-    height: 197.529px;
-  }
   .sec5Img7 span svg {
     width: 43px;
     height: 70.529px;
@@ -718,15 +714,6 @@ background: #FAFAFA;
    .accordion-button::after {
     display: block !important;
    }
-   .sec7img1 span svg{
-    width: 168px;
-    height: 166.746px;
-    flex-shrink: 0;
-  }
-  .sec7img1{
-    top: 50%;
-  }
-
   .sec3PImg2{
     top: 5%;
     right: 5%;
@@ -823,6 +810,10 @@ background: #FAFAFA;
   .btn4 {
     max-width: 261px !important;
   }
+  .sec5Img5 span svg {
+    width: 246px;
+    height: 197.529px;
+  }
   :root {
     --fs-sm: 16px;
     --fs-lg: 18px;
@@ -844,6 +835,14 @@ background: #FAFAFA;
     width: 212.256px;
     height: 210.672px;
     flex-shrink: 0;
+  }
+  .sec7img1 span svg{
+    width: 168px;
+    height: 166.746px;
+    flex-shrink: 0;
+  }
+  .sec7img1{
+    top: 50%;
   }
 }
 @media (max-width: 992px) {
