@@ -162,13 +162,13 @@
   max-width: 800px;
 }
 .contactBtn {
-  border: 1px solid #ffa723 !important;
+  /* border: 1px solid transparent !important; */
   border-radius: 5px !important;
   background: linear-gradient(125deg, #ffcf23 0%, #ffa723 100%) !important;
-  transition: 0.3s;
+  transition: 1s;
 }
 .contactBtn:hover {
-  border: 1px solid #fafafa !important;
+  outline: 1px solid #fafafa !important;
   border-radius: 5px !important;
   background: transparent !important;
 }
@@ -404,6 +404,12 @@
 }
 .bookNowBtn {
   border: 1px solid rgba(0, 0, 0, 0.4) !important;
+  transition: 0.3s;
+}
+.bookNowBtn:hover {
+  border: 1px solid var(--loginBtn) !important;
+  background: var(--loginBtn) !important;
+  color: var(--white);
 }
 .leftEllipse {
   width: 300px;
@@ -721,7 +727,7 @@
   }
   .sec5Img7 {
     top: 73%;
-    left: 3%;
+    left: 0%;
   }
   .rightEllipse {
     top: 35%;
