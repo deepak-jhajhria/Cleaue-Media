@@ -3,7 +3,7 @@
 * {
   box-sizing: border-box;
   list-style-type: none;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 .lh_24 {
   line-height: 24px !important;
@@ -37,7 +37,7 @@
   padding-bottom: 30px;
 }
 .vh_140 {
-  min-height: 110vh;
+  min-height: 90vh;
 }
 .py-80 {
   padding-top: 80px;
@@ -54,6 +54,30 @@
   background: var(--backtotop);
   border-radius: 50px;
   transition: 0.3s;
+  position: relative;
+}
+.backto-top::after {
+  border-radius: 50%;
+  z-index: -1;
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  width: 35px;
+  height: 35px;
+  animation: 1.6s ease-out infinite backtotop;
+  opacity: 1;
+  background: #2c62de;
+}
+@keyframes backtotop {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+}
+100% {
+    transform: scale(1.5);
+    opacity: 0;
+}
 }
 .d_nones {
   display: none;
@@ -407,7 +431,7 @@ box-shadow: 7px 7px 0px 0px #3C3C3C;
   right: 7%;
 }
 .sec5Img5 {
-  top: 42.9%;
+  top: 44.9%;
   left: 0;
 }
 .sec5Img6 {
@@ -514,6 +538,7 @@ height: 11px;
   left: 50%;
   border-radius: 34px;
   font-size: 0;
+  margin-left: -3px;
 }
 .sec7Slider .slick-center {
   border: 1px solid #ffcf23 !important;
@@ -557,7 +582,7 @@ flex-shrink: 0;
   fill: #fafafa;
 }
 .footerSvg:hover svg path {
-  fill: #6fb9d7;
+  fill:url(#grad1);
 }
 .footerLink {
   opacity: 0.7;
@@ -705,8 +730,8 @@ background: #FAFAFA;
     transform: rotate(12.79deg);
   }
   .skyimg1 {
-    bottom: 8%;
-    right: 10%;
+    bottom: -2%;
+    right: 6%;
     width: 196.679px;
     height: 196.523px;
     transform: rotate(-35.865deg); 
@@ -845,7 +870,12 @@ background: #FAFAFA;
     top: 50%;
   }
 }
-@media (max-width: 992px) {
+@media (min-width: 1200px) {
+  .menu {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
   .mobileView {
     display: flex;
     flex-direction: column;
